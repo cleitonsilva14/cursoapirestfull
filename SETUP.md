@@ -5,7 +5,7 @@ Executar projeto via Maven CLI
 $ ./mvnw spring-boot:run
 ```
 
-MySQL com Docker
+MySQL no Docker
 ```bash
 docker pull mysql
 sudo docker run -d --name mysql-server -e MYSQL_ROOT_PASSWORD=passwd -v $PWD/db_mysql:/var/lib/mysql -p 3306:3306 mysql
